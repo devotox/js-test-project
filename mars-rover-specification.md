@@ -25,7 +25,7 @@ Assume that the square directly North from (x, y) is (x, y+1).
 
 * The output for each rover should be its final coordinates and heading.
 
-### Example
+### Example:
 
 ### Test Input:
 ```
