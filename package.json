@@ -4,7 +4,8 @@
   "description": "A simple project with a single failing test",
   "scripts": {
     "test": "mocha test/**/*spec.js",
-    "run": "node --experimental-modules index.mjs"
+    "run": "node --experimental-modules index.mjs",
+    "run:watch": "npx nodemon --experimental-modules index.mjs"
   },
   "dependencies": {
     "chai": "^4.1.2",
