@@ -21,8 +21,10 @@ export const run = (input) => {
 	
 	const parsedInput = parseInput(input);
 	const result = run(parsedInput);
-  
-	console.info(result.join('\n')); // eslint-disable-line
+  	
+	result 
+		&& result.join
+		&& console.info(result.join('\n')); // eslint-disable-line
 
 	assert(result[0] === "1 3 N", 'result[0] === "1 3 N"');
 	assert(result[1] === "5 1 E", 'result[1] === "5 1 E"');
