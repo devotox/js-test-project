@@ -7,6 +7,7 @@ export const parseInput = (input) => {
 
 export const run = (input) => {
   // To Be Defined
+  return [];
 }
 
 // Easy Test
@@ -22,9 +23,7 @@ export const run = (input) => {
 	const parsedInput = parseInput(input);
 	const result = run(parsedInput);
   	
-	result 
-		&& result.join
-		&& console.info(result.join('\n')); // eslint-disable-line
+	console.info(result.join('\n')); // eslint-disable-line
 
 	assert(result[0] === "1 3 N", 'result[0] === "1 3 N"');
 	assert(result[1] === "5 1 E", 'result[1] === "5 1 E"');
